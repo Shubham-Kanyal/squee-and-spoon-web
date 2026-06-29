@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #03202B;
+  --color-champagne: #CEAB79;
+  --color-ivory: #F4EFFA;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #03202B;
+  color: #F4EFFA;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
